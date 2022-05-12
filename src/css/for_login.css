@@ -1,0 +1,12 @@
+body {
+    font-size: 1em;
+}
+
+.return {
+    font-size: 1em;
+    color: black;
+    position: absolute;
+    top: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}

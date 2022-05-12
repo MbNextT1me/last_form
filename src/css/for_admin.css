@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    margin-top:2em;
+    row-gap: 2em;
+}
+
+.for_table {
+    padding: 0 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    font-size: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td,th {
+    text-align:center;
+    padding: 8px;
+}
+
+caption {
+    color: black;
+    font-size: 1.45em;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.admin__out {
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.btn__del {
+    font-size: 0.9em;
+}
+
+.stat {
+    display: grid;
+    color: black;
+    padding: 1em 3em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.stat__caption {
+    font-weight: normal;
+    font-size: 1.45em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto 0.3em;
+}
+
+.border__bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.stat__list {
+    display: flex;
+}
+
+.stat__item {
+    font-size: 1.1em;
+    margin: 0 auto;
+    padding: 1em;
+}
